@@ -1,8 +1,8 @@
-% feynarts.sty
+% feynarts_MJKirk.sty
 % LaTeX style file used with the "TeX" output format of FeynArts
 % works "as is" probably only with dvips
 % this file is part of FeynArts
-% last modified 12 Aug 09 th
+% v1.0
 
 \special{!% FeynArts.texpro
 /FeynArtsDict 100 dict def FeynArtsDict begin /DiagramBorder 1 def
@@ -12,8 +12,8 @@ add def /LabelFont /Palatino-Italic def /LabelFontSize 2 def
 def /CounterThickness PropagatorThickness 3 mul def /CrossWidth 1 def
 /OnePIWidth //CrossWidth def /ArrowLength 1.2 def /ArrowHeight .4 def
 /DampingConst ArrowLength .65 mul dup mul dup mul def /ScalarDashing [
-.66 ] def /GhostDashing [ .11 .66 ] def /NPoints 10 def /NCrestsSine .5
-def /NCrestsCycles .65 def /SineAmp .25 def /CyclesAmp .6 def
+.66 ] def /GhostDashing [ .11 .66 ] def /NPoints 10 def /NCrestsSine .55
+def /NCrestsCycles .65 def /SineAmp .3 def /CyclesAmp .6 def
 /CyclesBreadth .16 def /Degree 3.141592653589793 180 div def /acos { dup
 dup mul 1 exch sub sqrt exch atan } bind def /asin { dup dup mul 1 exch
 sub sqrt atan } bind def /polar { 3 -1 roll sub /y exch def exch sub /x

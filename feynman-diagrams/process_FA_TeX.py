@@ -2,7 +2,7 @@
 import sys
 
 template_begin = r"""\documentclass[varwidth,margin={25 0 25 0}]{standalone}
-\usepackage{feynarts}
+\usepackage{feynarts_MJKirk}
 
 \begin{document}
 
