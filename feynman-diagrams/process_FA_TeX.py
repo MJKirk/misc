@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-template_begin = r"""\documentclass[varwidth,margin={25 0 25 0}]{standalone}
+template_begin = r"""\documentclass[varwidth,margin={25 0}]{standalone}
 \usepackage{feynarts_MJKirk}
 
 \begin{document}

@@ -15,4 +15,6 @@ The general workflow goes like:
     %
     ```
     with at least one blank line to get a new line.
-1) Use `latexmk -pdfps` to create the PDF file of your diagrams for including in your paper / talk / other thing.
+1) Use `latexmk -pdfdvi` to create the PDF file of your diagrams for including in your paper / talk / other thing.
+1) Use pdfcrop to crop the edges - by default there is a large gap on the sides to add external particle labels, and above and below from the FeynArts default behaviour.
+
