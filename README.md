@@ -18,3 +18,6 @@ The general workflow goes like:
 1) Use `latexmk -pdfdvi` to create the PDF file of your diagrams for including in your paper / talk / other thing.
 1) Use pdfcrop to crop the edges - by default there is a large gap on the sides to add external particle labels, and above and below from the FeynArts default behaviour.
 
+
+## Mathematica
+In [Mathematica](Mathematica) there is some useful Mathematica code I have written / collected from various places.
