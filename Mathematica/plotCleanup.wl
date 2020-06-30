@@ -5,7 +5,7 @@
 
 
 (* ::Text:: *)
-(*Solution taken from https://mathematica.stackexchange.com/questions/3190/saner-alternative-to-contourplot-fill/3279#3279.*)
+(*Solution based on https://mathematica.stackexchange.com/questions/3190/saner-alternative-to-contourplot-fill/3279#3279.*)
 (*Cleans up the ugly mesh that appears sometimes when exporting RegionPlot and ContourPlot to PDF.*)
 
 
@@ -27,7 +27,7 @@ edges=Join@@(Partition[#,2,1,1]&/@polys);
 cover=Cases[Tally[Sort/@edges],{e_,1}:>e];
 graph=Graph[UndirectedEdge@@@cover];
 {Sequence@@style,FilledCurve[List/@Line/@First/@Map[First,FindEulerianCycle/@(Subgraph[graph,#]&)/@ConnectedComponents[graph],{3}]]}],{g,groups}];
-lines=Cases[cp,_Tooltip,Infinity];
+lines=Cases[cp,GraphicsComplex[_,{_,boundaries_}]:>boundaries,Infinity];
 Graphics[GraphicsComplex[points,{regions,lines}],Sequence@@Options[cp]]]
 
 cleanPlot[Legended[cp_Graphics,rest___]]:=Legended[cleanPlot[cp],rest]
