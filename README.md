@@ -23,5 +23,5 @@ The general workflow goes like:
 In [Mathematica](Mathematica) there is some useful Mathematica code I have written / collected from various places.
 
 ## B Physics at the Tevatron (hyperlinked version)
-In [B-physics-at-the-Tevatron-hyperlinked](B-physics-at-the-Tevatron-hyperlinked) there is a script to regenerate the ['B Physics at the Tevatron'](https://arxiv.org/abs/hep-ph/0201071) report but with hyperlinks.
+In [B-Physics-at-the-Tevatron-hyperlinked](B-physics-at-the-Tevatron-hyperlinked) there is a script to regenerate the ['B Physics at the Tevatron'](https://arxiv.org/abs/hep-ph/0201071) report but with hyperlinks.
 
