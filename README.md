@@ -25,3 +25,5 @@ In [Mathematica](Mathematica) there is some useful Mathematica code I have writt
 ## B Physics at the Tevatron (hyperlinked version)
 In [B-Physics-at-the-Tevatron-hyperlinked](B-Physics-at-the-Tevatron-hyperlinked) there is a script to regenerate the ['B Physics at the Tevatron'](https://arxiv.org/abs/hep-ph/0201071) report but with hyperlinks.
 
+## docker
+In [docker](docker) there are various dockerfiles - currently one for pymultinest and one for the [superplot](https://github.com/michaelhb/superplot) GUI
