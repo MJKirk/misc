@@ -9,7 +9,7 @@
 (*Cleans up the ugly mesh that appears sometimes when exporting RegionPlot and ContourPlot to PDF.*)
 
 
-BeginPackage["CleanPlot`";];
+BeginPackage["CleanPlot`"];
 
 
 cleanPlot::usage = "Cleans up a RegionPlot/ContourPlot for PDF export";
