@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-params = {"C1": "$C_1$", "C2": "$C_2$", "C3": "$C_3$"}
+params = {"C1": r"$C_1$", "C2": r"$C_2$", "C3": r"$C_3$"}
 
 mins = (-2, 0, 1)
 maxs = (2, 1, 3)
