@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:16.04
 USER root
 RUN apt-get -qq -y update && \
     apt-get -qq -y install \

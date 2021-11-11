@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 USER root
 RUN apt-get -qq -y update && \
     apt-get -qq -y install \
